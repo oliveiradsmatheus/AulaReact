@@ -9,6 +9,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>
+          {"Data/hora em que a página foi carregada: " + new Date().toLocaleString()}
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
