@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Contador(props) {
+export default function ContadorV2(props) {
     const [valor, setValor] = useState(0); //hook useState = Permite que você use o state e outros recursos do React sem escrever uma classe.
     //Também permite que você informe um valor inicial para o estado. useState(valor);
 
